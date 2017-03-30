@@ -11,21 +11,7 @@ public class Calculadora {
        double y = Double.parseDouble(JOptionPane.showInputDialog("informe o segundo numero!"));
         
            r= calculador(y, y, operador);
-//       switch(operador){
-//           case "+":
-//              r=x+y; 
-//              break;
-//           case "-":
-//              r=x-y; 
-//              break;
-//           case "*":
-//              r=x*y; 
-//              break;
-//           case "/":
-//              r=x/y; 
-//              break;
-//                            
-//       }
+
        JOptionPane.showMessageDialog (null, "O resultado de sua operacao e : "+r);
        int opcao= JOptionPane.showConfirmDialog(null,"Deseja Efetuar outra operacao?","Sair",JOptionPane.YES_NO_OPTION,JOptionPane.WARNING_MESSAGE);
     
